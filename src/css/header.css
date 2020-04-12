@@ -1,0 +1,73 @@
+.header {
+  height: 100px;
+}
+
+.header_container {
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 310px;
+}
+
+.header_text {
+  font-size: 16px;
+}
+
+.header__logo {
+  height: 90px;
+}
+.navbar__list {
+  width: 520px;
+  padding-right: 40px;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; 
+}
+
+.navbar__item {
+  list-style-type: none; 
+}
+
+.navbar__link:hover {
+  color: #429b2d;
+  text-decoration:underline;
+  cursor: pointer
+}
+
+.header__contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #429b2d;
+  height: 100px;
+  width: 275px;
+  padding-right: 255px;
+}
+
+.contacts_format {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.icon_phone {
+  height: 23px;
+  align-self: center;
+}
+
+.contacts_text {
+  font-size: 18px;
+  font-weight:bold;
+}
+
+.contacts__button {
+  height: 37px;
+  background-color: #dfc435;
+  font-size: 16px;
+  border: none;
+}
+
+.icon_arrow {
+  align-self: center;
+  height: 12px;
+}
