@@ -1,0 +1,48 @@
+.hero_container{
+  background-image: url(../img/why.jpg);
+  height: 1294px;
+  padding-left: 320px;
+  padding-right: 265px;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.why-we {
+  position:relative
+}
+
+.text-left-first-second {
+  position: absolute;
+  top: 5px;
+  left:225px;
+  font-size: 30px;
+}
+
+.text-left-third-fourth {
+  position: absolute;
+  top: 30px;
+  left:200px;
+  font-size: 30px;
+}
+
+
+.text-right {
+  position: absolute;
+  left: 635px;
+  top: 55px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.why-we__img {
+  height: 174px;
+  width: 1155px;
+}
+
+.why-we_number {
+    font-size: 75px;
+}

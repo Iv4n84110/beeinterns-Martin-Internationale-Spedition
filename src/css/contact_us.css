@@ -1,0 +1,44 @@
+.contact-us_container{
+  background-image: url(../img/us.jpg);
+  height: 1306px;
+  padding-left: 308px;
+  padding-right: 250px;
+  padding-top: 80px;
+  padding-bottom: 120px;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.guarantee {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.guarantee__icon{
+  margin-left: 65px;
+  margin-right: 45px;
+  height: 188px;
+  width: 188px;
+  opacity: 0.65;
+}
+.guarantee_text {
+  font-size: 20px;
+  align-self: center;
+  border-left: #ffffff solid;
+  border-left-width: 1px;
+  padding-left: 52px;
+  width: 520px;
+  height: 75px;
+}
+
+.guarantee_inner-second {
+  height: 60px;
+  padding-top: 15px
+}
+
+.guarantee_inner-third-fourth {
+  line-height: 75px;
+}
